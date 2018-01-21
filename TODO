@@ -1,0 +1,28 @@
+# vim: set ft=votl:
+# vim: set nolist:
+
+Misc
+	[_] figure out how to execute from the root command
+	[_] figureo out how to stash data from plugins into subcommands
+Config
+	[_] initial load of config file
+		: probably use Config::Tiny in ini format
+	[_] locate the cache file
+	[_] locate current wallpaper file
+	[_] locate previous wallpaper file
+	[_] locate directory containing wallpapers
+	[_] build category list
+	[_] locate current lock file
+	[_] locate current set category
+Cache
+	[_] mabe switch cache to sqlite instead of tied hash
+		: storing more metadata on each image would make weighting easier or at
+		: least cut the need to stat each file in each run. could even record
+		: times an image is used.
+Init
+	[_] build wallpaper config directory
+		: try to use XDG_CONFIG_HOME or whatever that var name is...
+	[_] create initial sqlite db
+Dzil
+	[_] figure out to use the ShareDir to include an initial default config
+	[_] figure out how to push to stratopan
